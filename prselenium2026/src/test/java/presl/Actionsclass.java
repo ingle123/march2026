@@ -15,6 +15,8 @@ public class Actionsclass {
 		driver.findElement(By.id("userName")).sendKeys("Nilesh jadhao");
 		driver.findElement(By.id("userEmail")).sendKeys("nsjadhao@gmail.com");
 		driver.findElement(By.id("currentAddress")).sendKeys("gajanan NAGAR CHIKHLI");
+		driver.findElement(By.id("currentAddress")).sendKeys("gajanan NAGAR CHIKHLI")
+		
 		
 		Actions act = new Actions(driver);
 		act.keyDown(Keys.CONTROL);
